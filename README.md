@@ -31,24 +31,25 @@ tabs.init({
 #### Структура HTML
 ```sh
 <!-- контейнер для табов -->
-	<div class="tabs">
-	    <!-- навигация для табов -->
-		<ul class="tabs-nav">
-		    <li><a class="tabs-nav-link active-link">Описание</a></li>
-		    <li><a class="tabs-nav-link">Характеристики</a></li>
-		    <li><a class="tabs-nav-link">Комментарии</a></li>
-		</ul>
+<div class="tabs">
+   
+   <!-- навигация для табов -->
+	<ul class="tabs-nav">
+	    <li><a class="tabs-nav-link active-link">Описание</a></li>
+	    <li><a class="tabs-nav-link">Характеристики</a></li>
+	    <li><a class="tabs-nav-link">Комментарии</a></li>
+	</ul>
 		
-	    <!-- контент для табов -->
-		<div class="tabs-content">
-			<!-- Собственно сам таб / с активным классом-->
-			<div class="c-tab is-active">
-			    здесь вы можете разместить любой контент
-			</div>
-			<div class="c-tab">
-			    здесь вы можете разместить любой контент
-			</div>
+    <!-- контент для табов -->
+	<div class="tabs-content">
+		<!-- Собственно сам таб / с активным классом-->
+		<div class="c-tab is-active">
+		    здесь вы можете разместить любой контент
+		</div>
+		<div class="c-tab">
+		    здесь вы можете разместить любой контент
+		</div>
     	</div>
-	</div>
+</div>
 ```
 
